@@ -39,7 +39,7 @@ function Counters() {
               count={7}
               suffix=".0"
               title="IELTS score"
-              description="Average score "
+              description="Average IELTS Score of students of the Presidential School in Jizzakh is 7.0"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
