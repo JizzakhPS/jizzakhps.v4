@@ -8,14 +8,12 @@ const MKAvatar = forwardRef(({ bgColor, size, shadow, ...rest }, ref) => (
   <MKAvatarRoot ref={ref} ownerState={{ shadow, bgColor, size }} {...rest} />
 ));
 
-// Setting default values for the props of MKAvatar
 MKAvatar.defaultProps = {
   bgColor: "transparent",
   size: "md",
   shadow: "none",
 };
 
-// Typechecking props for the MKAvatar
 MKAvatar.propTypes = {
   bgColor: PropTypes.oneOf([
     "transparent",
