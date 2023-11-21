@@ -24,21 +24,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Study in
                     <br />
-                    Material Kit
+                    Jizzakh PS
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="You wish to study in specific environment with dedicated, selected students and teachers with no any fee..."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Steps"
+                description="Every summer, we conduct an admission test exclusively for 4th-grade graduates who are citizens of Uzbekistan. To be eligible, applicants must have achieved a grade of 5 in all subjects. Successful candidates proceed to a two-step examination process."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Learn More",
                 }}
               />
             </RotatingCard>
