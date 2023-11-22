@@ -1,23 +1,6 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// Sections components
 import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
 
-// Inputs page components
 import InputDynamic from "layouts/sections/input-areas/inputs/components/InputDynamic";
 import InputStatic from "layouts/sections/input-areas/inputs/components/InputStatic";
 import InputOutlined from "layouts/sections/input-areas/inputs/components/InputOutlined";
@@ -26,7 +9,6 @@ import InputSuccess from "layouts/sections/input-areas/inputs/components/InputSu
 import InputError from "layouts/sections/input-areas/inputs/components/InputError";
 import InputDisabled from "layouts/sections/input-areas/inputs/components/InputDisabled";
 
-// Inputs page components code
 import inputDynamicCode from "layouts/sections/input-areas/inputs/components/InputDynamic/code";
 import inputStaticCode from "layouts/sections/input-areas/inputs/components/InputStatic/code";
 import inputOutlinedCode from "layouts/sections/input-areas/inputs/components/InputOutlined/code";

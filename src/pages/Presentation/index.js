@@ -18,7 +18,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/back-hero.png";
 
 function Presentation() {
   return (
@@ -66,8 +66,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Excelence in Education: Empowering Tomorrow's Leaders in a well-maintained infrastructure with president's trust.
             </MKTypography>
           </Grid>
         </Container>
@@ -111,7 +110,7 @@ function Presentation() {
                 color="info"
                 icon="precision_manufacturing"
                 title="Plugins"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
+                description="Get inspiration and have an overview about the plugins that we used to create the Jizzakh PS."
                 action={{
                   type: "external",
                   route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
@@ -124,7 +123,7 @@ function Presentation() {
                 color="info"
                 icon="apps"
                 title="Components"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
+                description="Jizzakh PS is giving you a lot of pre-made components, that will help you to build UI's faster."
                 action={{
                   type: "external",
                   route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",

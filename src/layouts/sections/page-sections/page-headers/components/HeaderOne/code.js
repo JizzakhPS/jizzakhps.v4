@@ -6,8 +6,6 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
@@ -153,7 +151,7 @@ function HeaderOne() {
                 },
               })}
             >
-              Material Kit
+              Jizzakh PS
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
               The time is now for it be okay to be great. People in this world shun people for being

@@ -1,8 +1,6 @@
 const simpleAlertsCode = `// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKAlert from "components/MKAlert";
 

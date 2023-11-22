@@ -1,6 +1,5 @@
 const simpleModalCode = `import { useState } from "react";
 
-// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Modal from "@mui/material/Modal";
@@ -10,7 +9,6 @@ import Slide from "@mui/material/Slide";
 // @mui icons
 import CloseIcon from "@mui/icons-material/Close";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";

@@ -1,19 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
@@ -47,7 +31,7 @@ function Counters() {
             <DefaultCounterCard
               count={167}
               title="Student"
-              description="There 167 students with 12 fixed student in each class."
+              description="There are 167 students with 12 fixed student in each class."
             />
           </Grid>
         </Grid>

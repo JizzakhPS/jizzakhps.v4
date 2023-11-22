@@ -47,33 +47,32 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="auto_stories"
+                  title="International System"
+                  description="Embracing the Cambridge curriculum, we offer globally recognized IGCSE and AS/A Level exams, paving the way for academic excellence and global opportunities."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="money_off"
+                  title="Discover Limitless Possibilities"
+                  description="Everything is free – from dormitories to meals, textbooks to laptops, and uniforms. Experience education without barriers and unlock your full potential."
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="school"
+                  title="Build your Future"
+                  description=" Our graduates are equipped with the skills, knowledge, and support they need to pursue admission to the world's top universities."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="public"
+                  title="Learn from international perspectives"
+                  description="Our international teachers hold advanced degrees, including master's and PhD qualifications."
                 />
               </Grid>
             </Grid>

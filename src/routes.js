@@ -40,7 +40,7 @@ const routes = [
           },
           {
             name: "contact us",
-            route: "/pages/landing-pages/contact-us",
+            route: "/contact",
             component: <ContactUs />,
           },
           {

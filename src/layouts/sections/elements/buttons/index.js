@@ -1,31 +1,11 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// Sections components
 import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
-
-// Buttons page components
 import ButtonsGradient from "layouts/sections/elements/buttons/components/ButtonsGradient";
 import ButtonsContained from "layouts/sections/elements/buttons/components/ButtonsContained";
 import ButtonsOutlined from "layouts/sections/elements/buttons/components/ButtonsOutlined";
 import ButtonsSizes from "layouts/sections/elements/buttons/components/ButtonsSizes";
 import ButtonsIconLeft from "layouts/sections/elements/buttons/components/ButtonsIconLeft";
 import ButtonsIconRight from "layouts/sections/elements/buttons/components/ButtonsIconRight";
-
-// Buttons page components code
 import buttonsGradientCode from "layouts/sections/elements/buttons/components/ButtonsGradient/code";
 import buttonsContainedCode from "layouts/sections/elements/buttons/components/ButtonsContained/code";
 import buttonsOutlinedCode from "layouts/sections/elements/buttons/components/ButtonsOutlined/code";
