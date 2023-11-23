@@ -84,7 +84,7 @@ function Presentation() {
       >
         <Counters />
         <Information />
-        <DesignBlocks />
+        {/*<DesignBlocks />*/}
         <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />

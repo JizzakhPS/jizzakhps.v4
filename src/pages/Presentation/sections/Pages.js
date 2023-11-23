@@ -14,9 +14,9 @@ import ExampleCard from "pages/Presentation/components/ExampleCard";
 import data from "pages/Presentation/sections/data/pagesData";
 
 function Pages() {
-  const renderData = data.map(({ image, name, route }) => (
+  const renderData = data.map(({ image, name, route,target }) => (
     <Grid item xs={12} md={6} sx={{ mb: { xs: 3, lg: 0 } }} key={name}>
-      <Link to={route}>
+      <Link to={route} target={target}>
         <ExampleCard image={image} name={name} display="grid" minHeight="auto" />
       </Link>
     </Grid>
@@ -42,11 +42,11 @@ function Pages() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            With our coded pages
+            See projects in our school
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            The easiest way to get started is to use one of our
-            <br /> pre-built example pages.
+            Freedom for students to prepare
+            <br />  them to the future.
           </MKTypography>
         </Grid>
       </Container>
@@ -60,11 +60,11 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Everything is for the bright future of Uzbekistan
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+                These are just a small selection of the multiple projects pupil have. There is no space
+                enough in the world to show all.
               </MKTypography>
             </MKBox>
           </Grid>

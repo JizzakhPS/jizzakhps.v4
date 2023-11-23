@@ -18,24 +18,32 @@ function ContactUs() {
         <DefaultNavbar
           routes={routes}
           action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            type: "internal",
+            route: "/contact",
+            label: "Contact",
             color: "info",
           }}
         />
       </MKBox>
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>
-          <MKBox
-            display={{ xs: "none", lg: "flex" }}
-            width="calc(100% - 2rem)"
-            height="calc(100vh - 2rem)"
-            borderRadius="lg"
-            ml={2}
-            mt={2}
-            sx={{ backgroundImage: `url(${bgImage})` }}
-          />
+          {/*<MKBox*/}
+          {/*  display={{ xs: "none", lg: "flex" }}*/}
+          {/*  width="calc(100% - 2rem)"*/}
+          {/*  height="calc(100vh - 2rem)"*/}
+          {/*  borderRadius="lg"*/}
+          {/*  ml={2}*/}
+          {/*  mt={2}*/}
+          {/*  sx={{ backgroundImage: `url(${bgImage})` }}*/}
+          {/*/>*/}
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d786.9713005474197!2d67.82125909606087!3d40.136669158053806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1700745852927!5m2!1sen!2s"
+              style={{width: "calc(100% - 6rem)", height:"calc(100vh - 6rem)", marginLeft: "20px", marginTop: "20px", border: "none", borderRadius: "15px"}}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
         </Grid>
         <Grid
           item
@@ -73,8 +81,7 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                For further questions, please email <a target="_blank" href="mailto:contact@jizzakhps.uz">contact@jizzakhps.uz</a>  or call <a href="tel:+998722215919">+998 72 221 59 19</a> or contact using our contact form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
