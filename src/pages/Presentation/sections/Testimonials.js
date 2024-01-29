@@ -5,7 +5,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
+import appleLogo from "assets/images/logos/gray-logos/cambridge-assessment-international-education-vector-logo.svg";
 import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
 import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
 import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
@@ -28,58 +28,36 @@ function Information() {
             PRESIDENT OF UZBEKISTAN
           </MKTypography>
           <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
+            Many TOP scholarship agencies, universities and institutions love
+            Jizzakh Presidential School&apos;s students.
           </MKTypography>
         </Grid>
-        <Grid container spacing={3} sx={{ mt: 8 }}>
+        <Grid container spacing={3} sx={{ mt: 0 }}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Nick Willever"
-              date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
+              color="info"
+              name="Dilruza Jumanova"
+              date="Sep. 19, 2023"
+              review="I couldn't even imagine studying abroad before coming to Jizzakh Presidential School. I got acceptance from world's top 100 University - PennState University and now studying there."
               rating={5}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               color="info"
-              name="Shailesh Kushwaha"
-              date="1 week ago"
-              review="I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+              name="Nurbek O'sarov"
+              date="Oct. 12, 2023"
+              review="'El-Yurt Umidi Foundation' is one of the most selective scholarship agency in Uzbekistan and in the world as well. By big help of my aspiring teachers, I managed to win this fully funding this scholarship and now studying in Top university according to the QS Ranking, University of Minnesota, Twin cities."
               rating={5}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Samuel Kamuli"
-              date="3 weeks ago"
-              review="Great product. Helped me cut the time to set up a site. I used the components within instead of starting from scratch. I highly recommend for developers who want to spend more time on the backend!."
+              color="info"
+              name="Nozimbek Turg'unboyev"
+              date="Oct. 12, 2023"
+              review="Winning full ride scholarship to the TOP university in the world is almost impossible, but it is not the case for Jizzakh Presidential School Student. Personally I successfully participated and won the reputable 'Stipendium Hungaricum' and studying there. Big Thanks for all who have helped me."
               rating={5}
-            />
-          </Grid>
-        </Grid>
-        <Divider sx={{ my: 6 }} />
-        <Grid container spacing={3} justifyContent="center">
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={appleLogo} alt="Apple" width="100%" opacity={0.6} />
-          </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={facebookLogo} alt="Facebook" width="100%" opacity={0.6} />
-          </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={nasaLogo} alt="Nasa" width="100%" opacity={0.6} />
-          </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={vodafoneLogo} alt="Vodafone" width="100%" opacity={0.6} />
-          </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox
-              component="img"
-              src={digitalOceanLogo}
-              alt="DigitalOcean"
-              width="100%"
-              opacity={0.6}
             />
           </Grid>
         </Grid>

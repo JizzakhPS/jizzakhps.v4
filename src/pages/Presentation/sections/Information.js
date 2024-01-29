@@ -29,7 +29,7 @@ function Information() {
                     Jizzakh PS
                   </>
                 }
-                description="You wish to study in specific environment with dedicated, selected students and teachers with no any fee..."
+                description="You wish to study in specific environment with dedicated, selected students and teachers with no fee..."
               />
               <RotatingCardBack
                 image={bgBack}

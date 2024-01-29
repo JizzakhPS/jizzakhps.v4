@@ -1,5 +1,5 @@
 import Icon from "@mui/material/Icon";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import House from "@mui/icons-material/House";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
@@ -220,9 +220,9 @@ const routes = [
     ],
   },
   {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
+    name: "House System",
+    icon: <House />,
+    route: "/sections/elements/typography",
   },
 ];
 
