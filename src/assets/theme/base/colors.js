@@ -4,8 +4,8 @@ export default {
   },
 
   text: {
-    main: "#7b809a",
-    focus: "#7b809a",
+    main: "#294078",
+    focus: "#294078",
   },
 
   transparent: {
@@ -34,8 +34,8 @@ export default {
   },
 
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#335095",
+    focus: "#294078",
   },
 
   success: {
@@ -187,52 +187,52 @@ export default {
 
     secondary: {
       background: "#d7d9e1",
-      text: "#6c757d",
+      text: "#294078",
     },
 
     info: {
       background: "#aecef7",
-      text: "#095bc6",
+      text: "#294078",
     },
 
     success: {
       background: "#bce2be",
-      text: "#339537",
+      text: "#294078",
     },
 
     warning: {
       background: "#ffd59f",
-      text: "#c87000",
+      text: "#294078",
     },
 
     error: {
       background: "#fcd3d0",
-      text: "#f61200",
+      text: "#294078",
     },
 
     light: {
       background: "#ffffff",
-      text: "#c7d3de",
+      text: "#294078",
     },
 
     dark: {
       background: "#8097bf",
-      text: "#1e2e4a",
+      text: "#294078",
     },
   },
 
   coloredShadows: {
-    primary: "#e91e62",
-    secondary: "#110e0e",
-    info: "#00bbd4",
-    success: "#4caf4f",
-    warning: "#ff9900",
-    error: "#f44336",
-    light: "#adb5bd",
-    dark: "#404040",
+    primary: "#00113A",
+    secondary: "#00113A",
+    info: "#00113A",
+    success: "#00113A",
+    warning: "#00113A",
+    error: "#00113A",
+    light: "#00113A",
+    dark: "#00113A",
   },
 
-  inputBorderColor: "#d2d6da",
+  inputBorderColor: "#294078",
 
   tabs: {
     indicator: { boxShadow: "#ddd" },

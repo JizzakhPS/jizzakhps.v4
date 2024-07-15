@@ -5,7 +5,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
-import appleLogo from "assets/images/logos/gray-logos/cambridge-assessment-international-education-vector-logo.svg";
+// import appleLogo from "assets/images/logos/gray-logos/cambridge-assessment-international-education-vector-logo.svg";
 import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
 import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
 import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";

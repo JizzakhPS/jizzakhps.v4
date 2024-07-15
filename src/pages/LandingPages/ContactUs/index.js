@@ -7,6 +7,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import "./index.css"
 
 // Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
@@ -80,7 +81,7 @@ function ContactUs() {
               </MKTypography>
             </MKBox>
             <MKBox p={3}>
-              <MKTypography variant="body2" color="text" mb={3}>
+              <MKTypography variant="body2" className="links" mb={3}>
                 For further questions, please email <a target="_blank" href="mailto:contact@jizzakhps.uz">contact@jizzakhps.uz</a>  or call <a href="tel:+998722215919">+998 72 221 59 19</a> or contact using our contact form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
@@ -106,7 +107,7 @@ function ContactUs() {
                     <MKInput
                       variant="standard"
                       label="What can we help you?"
-                      placeholder="Describe your problem in at least 250 characters"
+                      placeholder="Write your letter to contact us, max 250 characters"
                       InputLabelProps={{ shrink: true }}
                       multiline
                       fullWidth

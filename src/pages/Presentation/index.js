@@ -16,6 +16,7 @@ import Download from "pages/Presentation/sections/Download";
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import "./index.css"
 
 // Images
 import bgImage from "assets/images/back-hero.png";
@@ -45,10 +46,10 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
-            <MKTypography
+          <Grid className="BlurArea" container item xs={12} lg={8} justifyContent="center" mx="auto">
+            <MKTypography className="Textinblur"
               variant="h1"
-              color="white"
+              color="#294078"
               mt={-6}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
@@ -59,9 +60,9 @@ function Presentation() {
             >
               Presidential School in Jizzakh{" "}
             </MKTypography>
-            <MKTypography
+            <MKTypography className="Descriptioninblur"
               variant="body1"
-              color="white"
+              color="#294078"
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
