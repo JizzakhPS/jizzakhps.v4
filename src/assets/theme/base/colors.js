@@ -87,8 +87,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#5788FF",
+      state: "#294078",
     },
 
     success: {

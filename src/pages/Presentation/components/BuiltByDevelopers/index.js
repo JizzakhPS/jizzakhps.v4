@@ -3,6 +3,8 @@ import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import "../BuiltByDevelopers/index.css"
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function BuiltByDevelopers() {
   const bgImage =
@@ -28,10 +30,11 @@ function BuiltByDevelopers() {
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            PIIMA.UZ
+            PIIMA.UZ                                
           </MKTypography>
-          <MKTypography variant="h1" color="white" mb={1}>
-            Complex Documentation
+          <MKTypography className="helpertext" variant="b" color="info" mb={1}>errorerrornotxt</MKTypography>
+          <MKTypography className="ComplexDoc" variant="b" color="white" mb={1}>
+            COMPLEX DOCUMENTATION
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
             From budget information, statistics, official documentations to laws and orders, you will find the full

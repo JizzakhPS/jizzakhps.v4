@@ -22,6 +22,7 @@ import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarD
 import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMobile";
 
 import breakpoints from "assets/theme/base/breakpoints";
+import "./header.css"
 
 function DefaultNavbar({ brand, routes, transparent, light, action, sticky, relative, center }) {
   const [dropdown, setDropdown] = useState("");
@@ -191,7 +192,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             variant="button"
             textTransform="capitalize"
             minWidth={item.description ? "14rem" : "12rem"}
-            color={item.description ? "dark" : "text"}
+            color={item.description ? "light" : "text"}
             fontWeight={item.description ? "bold" : "regular"}
             py={item.description ? 1 : 0.625}
             px={2}

@@ -60,6 +60,7 @@ function Information() {
               rating={5}
             />
           </Grid>
+          
         </Grid>
       </Container>
     </MKBox>

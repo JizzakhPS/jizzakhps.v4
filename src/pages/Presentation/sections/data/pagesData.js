@@ -1,5 +1,7 @@
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
+import Dovuchcha from "../../../../assets/images/projects/dovuchcha.png"
+import TheDawn from "../../../../assets/images/projects/thedawn.png"
 
 export default [
   {
@@ -9,17 +11,16 @@ export default [
     route: "https://youtu.be/plHdOZj1D0Y?si=kM-pU5bFRg0WO2dJ",
   },
   {
-    image: `https://www.lifehacker.com.au/wp-content/uploads/2016/07/27/rzhoh0b0u7dhifizh4gm.jpg?quality=75`,
-    name: "China of Reaction",
+    image: Dovuchcha,
+    name: "Dovuchcha",
     target: "_blank",
-    route: "https://www.youtube.com/watch?v=e6zp69KLX7g",
+    route: "https://www.dovuchcha.uz",
   },
   {
-    image:
-      "https://i.postimg.cc/dVS9vqVY/teacher.png",
-    name: "Student is teacher",
+    image: TheDawn,
+    name: "The Dawn Magazine",
     target: "_blank",
-    route: "https://youtu.be/0NQOIfaZ6HI?si=dsCK_mbzx81D4Y58",
+    route: "https://t.me/the_dawn_journal",
   },
   {
     image: `https://i.postimg.cc/RZzkKxrK/football.jpg`,
@@ -27,4 +28,5 @@ export default [
     target: "_blank",
     route: "https://t.me/jpsleague",
   },
+  
 ];

@@ -49,7 +49,7 @@ function Presentation() {
           <Grid className="BlurArea" container item xs={12} lg={8} justifyContent="center" mx="auto">
             <MKTypography className="Textinblur"
               variant="h1"
-              color="#294078"
+              color="info"
               mt={-6}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({

@@ -16,7 +16,7 @@ function Counters() {
               suffix="+"
               title="Staff"
               description="Passionate and dedicated educators empowering student success"
-              color="#294078"
+              color="info"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -26,16 +26,16 @@ function Counters() {
               suffix=".0"
               title="IELTS score"
               description="Average IELTS Score of students of the Presidential School in Jizzakh is 7.0"
-              color="#294078"
+              color="info"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={167}
-              title="Student"
-              description="There are 167 students with 12 fixed student in each class."
-              color="#294078"
+              count={168}
+              title="Students"
+              description="There are 168 students with 12 fixed student in each 14 classes."
+              color="info"
             />
           </Grid>
         </Grid>

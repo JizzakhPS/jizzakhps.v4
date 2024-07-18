@@ -222,7 +222,7 @@ const routes = [
   {
     name: "House System",
     icon: <House />,
-    route: "/sections/elements/typography",
+    route: "https://sites.google.com/view/enhanced-house-system/home?authuser=1",
   },
 ];
 
