@@ -78,7 +78,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Behzod Musurmonqulov and <a href="">Ismatulloh Bakhtiyorov</a>
+        Behzod Musurmonqulov and Ismatulloh Bakhtiyorov
       </MKTypography>
     </MKTypography>
   ),
