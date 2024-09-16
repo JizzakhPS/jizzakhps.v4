@@ -63,11 +63,10 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              About Us
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              Lorem Lorem smaalasdasdf
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
