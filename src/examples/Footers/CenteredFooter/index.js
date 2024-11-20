@@ -105,7 +105,7 @@ CenteredFooter.defaultProps = {
     },
     {
       icon: <InstagramIcon fontSize="small" />,
-      link: "https://www.instagram.com/creativetimofficial/",
+      link: "https://www.instagram.com/bakkhtiyoroff/",
     },
     {
       icon: <PinterestIcon fontSize="small" />,
