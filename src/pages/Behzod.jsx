@@ -1,6 +1,6 @@
 import React from 'react';
 import './StudentProfile.css';
-import { FaBirthdayCake, FaBook, FaStar, FaAward } from 'react-icons/fa';
+import { FaBirthdayCake, FaBook, FaStar, FaAward, FaLinkedin, FaGithub, FaTelegram, FaInstagram, FaSnapchat } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
 const StudentProfile = ({ student }) => {
@@ -12,6 +12,21 @@ const StudentProfile = ({ student }) => {
         {/* Profile Image */}
         <div className="profile-image">
           <img src={student.picture} alt={`${student.name}'s portrait`} />
+          {/* Social Media Links */}
+          <div className="social-media">
+            <a href={student.telegram} target="_blank" rel="noopener noreferrer">
+              <FaTelegram className="social-icon telegram" />
+            </a>
+            <a href={student.linkedin} target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="social-icon linkedin" />
+            </a>
+            <a href={student.instagram} target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="social-icon instagram" />
+            </a>
+            <a href={student.snapchat} target="_blank" rel="noopener noreferrer">
+              <FaSnapchat className="social-icon snapchat" />
+            </a>
+          </div>
         </div>
         {/* Profile Content */}
         <div className="profile-content">

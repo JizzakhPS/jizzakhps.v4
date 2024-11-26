@@ -1,151 +1,236 @@
 /* Reset and Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
-  }
-  
-  /* Student Profile Container */
-  .student-profile {
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-  }
-  
-  /* Profile Card */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Student Profile Container */
+.student-profile {
+  display: flex;
+  justify-content: center;
+  padding: 50px; /* Reduced padding for smaller screens */
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 
+              0 5px 15px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(50, 50, 93, 0.15), 
+              0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.profile-image {
+  flex: 1 1 100px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+
+.profile-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 10px; /* Add spacing between image and icons */
+}
+
+/* Profile Content */
+.profile-content {
+  flex: 1 1 400px;
+  padding: 30px; /* Adjusted for smaller screens */
+}
+
+.student-name {
+  font-size: 2em; /* Scaled down for smaller screens */
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.birth-date {
+  display: flex;
+  align-items: center;
+  font-size: 1em; /* Adjusted for smaller screens */
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.birth-date .icon {
+  margin-right: 10px;
+  color: #ff7043;
+}
+
+.description {
+  font-size: 1em; /* Adjusted for smaller screens */
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Statistics Section */
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Reduced gap for smaller screens */
+}
+
+.stat-item {
+  flex: 1 1 100px;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px 15px; /* Adjusted for smaller screens */
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.stat-item:hover {
+  background: #e0e0e0;
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 1.5em; /* Adjusted for smaller screens */
+  margin-right: 10px;
+  color: #3f51b5;
+}
+
+.stat-text h3 {
+  margin: 0;
+  font-size: 1.5em; /* Adjusted for smaller screens */
+  color: #333;
+}
+
+.stat-text p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+/* Back to Main Button */
+.back-to-main {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-to-main:hover {
+  background-color: #303f9f;
+  transform: scale(1.05);
+}
+
+/* Social Media Links */
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between icons */
+  margin-top: 10px; /* Ensure spacing from the image */
+}
+
+.social-icon {
+  font-size: 1.5em;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon.telegram {
+  color: #0088cc; /* Telegram Blue */
+}
+
+.social-icon.instagram {
+  color: #e4405f; /* Instagram Pink */
+}
+
+.social-icon.snapchat {
+  color: #fffc00; /* Snapchat Yellow */
+}
+
+.social-icon.linkedin {
+  color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-icon.github {
+  color: #333; /* GitHub Dark Gray */
+}
+
+@media (max-width: 1024px) {
   .profile-card {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 
-                0 5px 15px rgba(0, 0, 0, 0.07);
+    flex-direction: column; /* Stacks content on iPads */
   }
-  
-  /* Profile Image */
-  .profile-image {
-    flex: 1 1 100px;
-    min-width: 100px;
-  }
-  
-  .profile-image img {
-    width: 300px;
-    object-fit: cover;
-  }
-  
-  /* Profile Content */
+
   .profile-content {
-    flex: 1 1 400px;
-    padding: 40px;
+    padding: 20px; /* Reduced padding for iPads */
   }
-  
-  .student-name {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .birth-date {
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-    color: #777;
-    margin-bottom: 20px;
-  }
-  
-  .birth-date .icon {
-    margin-right: 10px;
-    color: #ff7043;
-  }
-  
-  .description {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  /* Statistics Section */
+
   .statistics {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px; /* Smaller gaps on iPads */
   }
-  
+}
+
+@media (max-width: 768px) {
+  .profile-image img {
+    width: 200px; /* Smaller image for mobile */
+  }
+
+  .profile-card {
+    flex-direction: column; /* Stacks content on mobile */
+  }
+
+  .profile-content {
+    padding: 15px; /* Reduced padding for mobile devices */
+  }
+
+  .student-name {
+    font-size: 1.8em; /* Smaller heading on mobile */
+  }
+
+  .statistics {
+    flex-direction: column; /* Stacks statistics items */
+    gap: 10px;
+  }
+
   .stat-item {
-    flex: 1 1 120px;
-    display: flex;
-    align-items: center;
-    background: #f9f9f9;
-    padding: 15px 20px;
-    border-radius: 8px;
-    transition: background 0.3s, transform 0.3s;
+    width: 100%;
   }
-  
-  .stat-item:hover {
-    background: #e0e0e0;
-    transform: translateY(-5px);
-  }
-  
-  .stat-icon {
-    font-size: 2em;
-    margin-right: 15px;
-    color: #3f51b5;
-  }
-  
-  .stat-text h3 {
-    margin: 0;
-    font-size: 1.8em;
-    color: #333;
-  }
-  
-  .stat-text p {
-    margin: 5px 0 0;
-    color: #777;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .profile-card {
-      flex-direction: column;
-    }
-  
-    .profile-content {
-      padding: 30px;
-    }
-  
-    .statistics {
-      flex-direction: column;
-    }
-  
-    .stat-item {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-  }
+
   .back-to-main {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 20px;
-    font-size: 1em;
-    font-weight: bold;
-    color: #fff;
-    background-color: #3f51b5;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px; /* Adjusted margin for mobile */
   }
-  
-  .back-to-main:hover {
-    background-color: #303f9f;
-    transform: scale(1.05);
+
+  .social-icon {
+    font-size: 1.2em; /* Smaller icons on mobile */
   }
+}

@@ -18,6 +18,10 @@ export default function App() {
     coursesEnrolled: 6,
     gpa: 5.0,
     awards: 4,
+    telegram: "https://t.me/bsfrens",
+    linkedin: "https://linkedin.com/in/behzodmusurmonqulov",
+    instagram: "https://instagram.com/behzod_musurmonqulov",
+    snapchat: "https://snapchat.com/add/behzod.d",
   };
   const { pathname } = useLocation();
   useEffect(() => {
