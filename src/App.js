@@ -44,7 +44,7 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
-        <Route path="/students/behzod" element={<StudentProfile student={student} />} />
+        <Route path="/students/behzodm" element={<StudentProfile student={student} />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
