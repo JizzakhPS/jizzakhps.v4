@@ -1,8 +1,11 @@
 import React from 'react';
 import './StudentProfile.css';
 import { FaBirthdayCake, FaBook, FaStar, FaAward } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const StudentProfile = ({ student }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="student-profile">
       <div className="profile-card">
@@ -43,6 +46,13 @@ const StudentProfile = ({ student }) => {
             </div>
           </div>
           {/* End of Statistics Section */}
+          {/* Back to Main Button */}
+          <button
+            className="back-to-main"
+            onClick={() => navigate('/')}
+          >
+            Back to Main
+          </button>
         </div>
         {/* End of Profile Content */}
       </div>

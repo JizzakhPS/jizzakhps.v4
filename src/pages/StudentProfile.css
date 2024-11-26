@@ -131,3 +131,21 @@
       margin-bottom: 15px;
     }
   }
+  .back-to-main {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .back-to-main:hover {
+    background-color: #303f9f;
+    transform: scale(1.05);
+  }
