@@ -37,25 +37,25 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
   const openMobileNavbar = () => setMobileNavbar(!mobileNavbar);
 
-  useEffect(() => {
-    // A function that sets the display state for the DefaultNavbarMobile.
-    function displayMobileNavbar() {
-      if (window.innerWidth < breakpoints.values.lg) {
-        setMobileView(true);
-        setMobileNavbar(false);
-      } else {
-        setMobileView(false);
-        setMobileNavbar(false);
-      }
-    }
-    window.addEventListener("resize", displayMobileNavbar);
+  // useEffect(() => {
+  //   // A function that sets the display state for the DefaultNavbarMobile.
+  //   function displayMobileNavbar() {
+  //     if (window.innerWidth < breakpoints.values.lg) {
+  //       setMobileView(true);
+  //       setMobileNavbar(false);
+  //     } else {
+  //       setMobileView(false);
+  //       setMobileNavbar(false);
+  //     }
+  //   }
+  //   window.addEventListener("resize", displayMobileNavbar);
 
-    // Call the displayMobileNavbar function to set the state with the initial value.
-    displayMobileNavbar();
+  //   // Call the displayMobileNavbar function to set the state with the initial value.
+  //   displayMobileNavbar();
 
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", displayMobileNavbar);
-  }, []);
+  //   // Remove event listener on cleanup
+  //   return () => window.removeEventListener("resize", displayMobileNavbar);
+  // }, []);
 
   const renderNavbarItems = routes.map(({ name, icon, href, route, collapse }) => (
     <DefaultNavbarDropdown
